@@ -18,7 +18,7 @@ def run_flask():
     flask_app.run(host='0.0.0.0', port=port)
 
 # 2. منطق البوت
-TOKEN = os.environ.get("TELEGRAM_TOKEN")
+TOKEN = ("8335107485:AAEKNnxEsi61kwuoR6FOc8-wHGaZjJmvfnA")
 if not TOKEN:
     raise ValueError("Please set TELEGRAM_TOKEN environment variable")
 
